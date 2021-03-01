@@ -1,4 +1,9 @@
 {
+  "example": [
+    {
+      "name": "Caio"
+    }
+  ],
   "products": [
     {
       "id": "123",

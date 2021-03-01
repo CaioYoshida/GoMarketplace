@@ -112,6 +112,10 @@ describe('Cart Context', () => {
       fireEvent.press(getByTestId('increment'));
     });
 
+    await act(async () => {
+      fireEvent.press(getByTestId('increment'));
+    });
+
     await wait(async () => expect(getByText('2')).toBeTruthy());
   });
 
